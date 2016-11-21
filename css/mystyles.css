@@ -37,32 +37,34 @@ body{
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #9A7D0A;
+    color: #F4F6F6;
     background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
  .navbar-inverse .navbar-nav > .open > a:hover,
  .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #9A7D0A;
+    color: #F4F6F6;
     background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
 .navbar-inverse .navbar-nav .open .dropdown-menu {
     background-color: #B03A2E;
-    color:#9A7D0A;
+    color:#979A9A;
 }
 
+
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
-    color:#B03A2E;
-}
+    background: #B03A2E;
+    color:#F4F6F6;
+    }
 
 .carousel {
     background:white;
 }
 
-.carousel-caption h2 {
+.carousel-caption h3 {
 color: #E74C3C;
 }
 
