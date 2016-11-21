@@ -11,7 +11,7 @@
 }
 
 .row-footer{
-    background-color: #AfAfAf;
+    background-color: #D98880;
     margin:0px auto;
     padding: 20px 0px 20px 0px;
 }
@@ -27,41 +27,47 @@ address{
 body{
     padding:50px 0px 0px 0px;
     z-index:0;
+    background: #85C1E9;
 }
 
 .navbar-inverse {
-     background: black;
+     background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #fff;
-    background: black;
+    color: #9A7D0A;
+    background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav > .open > a,
  .navbar-inverse .navbar-nav > .open > a:hover,
  .navbar-inverse .navbar-nav > .open > a:focus {
-    color: #fff;
-    background: black;
+    color: #9A7D0A;
+    background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
 .navbar-inverse .navbar-nav .open .dropdown-menu {
     background-color: black;
-    color:#eeeeee;
+    color:#9A7D0A;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
-    color:#000000;
+    color:#B03A2E;
 }
 
 .carousel {
     background:white;
 }
+
+.carousel-caption h2 {
+color: #E74C3C;
+}
+
 .carousel .item {
-  height: 300px;
+  height: 450px;
 }
 .item img {
     position: absolute;
