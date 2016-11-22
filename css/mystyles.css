@@ -79,8 +79,10 @@ body{
     background:white;
 }
 
-.carousel-caption h3 {
+.carousel-caption h2 {
 color: #E74C3C;
+font-style: italic;
+font-weight: bold;
 }
 
 .carousel .item {
