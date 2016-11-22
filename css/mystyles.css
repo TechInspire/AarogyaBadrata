@@ -34,10 +34,23 @@ body{
      background: #B03A2E;
 }
 
+.navbar-inverse .navbar-nav > li> a{
+    color: #F4F6F6;
+    background: #B03A2E;
+}
+
+.navbar-inverse .navbar-nav > li> a:hover,
+.navbar-inverse .navbar-nav > li> a:focus{
+    color: #F4F6F6;
+    font-weight: bold;
+    background: #B03A2E;
+}
+
 .navbar-inverse .navbar-nav > .active > a,
 .navbar-inverse .navbar-nav > .active > a:hover,
 .navbar-inverse .navbar-nav > .active > a:focus {
     color: #F4F6F6;
+    font-weight: bold;
     background: #B03A2E;
 }
 
@@ -45,19 +58,21 @@ body{
  .navbar-inverse .navbar-nav > .open > a:hover,
  .navbar-inverse .navbar-nav > .open > a:focus {
     color: #F4F6F6;
+    font-weight: bold;
     background: #B03A2E;
 }
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a,
 .navbar-inverse .navbar-nav .open .dropdown-menu {
     background-color: #B03A2E;
-    color:#979A9A;
+    color:white;
 }
 
 
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     background: #B03A2E;
     color:#F4F6F6;
+    font-weight: bold;
     }
 
 .carousel {
