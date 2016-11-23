@@ -68,12 +68,28 @@ body{
     color:white;
 }
 
-
 .navbar-inverse .navbar-nav .open .dropdown-menu> li> a:hover {
     background: #B03A2E;
     color:#F4F6F6;
     font-weight: bold;
     }
+
+  ul.nav li:hover > ul.dropdown-menu {
+    display: block;
+    background: #B03A2E;
+  } 
+
+  ul.nav li:hover > ul.dropdown-menu> li> a:hover,
+  ul.nav li:hover > ul.dropdown-menu> li> a:focus {
+    background: #B03A2E;
+    color:#F4F6F6;
+    font-weight: bold;
+    }
+
+  ul.nav li:hover > ul.dropdown-menu> li> a {
+    background: #B03A2E;
+    color:#F4F6F6;
+   }
 
 .carousel {
     background:white;
@@ -95,3 +111,6 @@ font-weight: bold;
     min-height: 300px;
     max-width: inherit;
 }
+
+
+ 
