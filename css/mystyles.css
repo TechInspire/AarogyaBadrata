@@ -99,9 +99,10 @@ body{
     background:white;
 }
 
-.carousel-caption h2 {
+.carousel-caption p {
 color: #E74C3C;
 font-style: italic;
+font-weight: bolder;
 }
 
 .carousel .item {
